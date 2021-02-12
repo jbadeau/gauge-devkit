@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gdk-sauron" />
+        <module name="gdk-graphql" />
+        <module name="gdk-soap" />
+        <module name="gdk-web" />
+        <module name="gdk-common" />
+        <module name="gdk-core" />
+        <module name="gdk-table" />
+        <module name="gdk-rest" />
+        <module name="gdk-sql" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gauge-devkit" target="14" />
+      <module name="gdk-common" target="14" />
+      <module name="gdk-core" target="14" />
+      <module name="gdk-graphql" target="14" />
+      <module name="gdk-rest" target="14" />
+      <module name="gdk-sauron" target="14" />
+      <module name="gdk-soap" target="14" />
+      <module name="gdk-sql" target="14" />
+      <module name="gdk-table" target="14" />
+      <module name="gdk-web" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

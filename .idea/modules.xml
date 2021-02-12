@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gauge-devkit.iml" filepath="$PROJECT_DIR$/.idea/gauge-devkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-common/gdk-common.iml" filepath="$PROJECT_DIR$/libs/gdk-common/gdk-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-core/gdk-core.iml" filepath="$PROJECT_DIR$/libs/gdk-core/gdk-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-graphql/gdk-graphql.iml" filepath="$PROJECT_DIR$/libs/gdk-graphql/gdk-graphql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-rest/gdk-rest.iml" filepath="$PROJECT_DIR$/libs/gdk-rest/gdk-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-sauron/gdk-sauron.iml" filepath="$PROJECT_DIR$/libs/gdk-sauron/gdk-sauron.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-soap/gdk-soap.iml" filepath="$PROJECT_DIR$/libs/gdk-soap/gdk-soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-sql/gdk-sql.iml" filepath="$PROJECT_DIR$/libs/gdk-sql/gdk-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-table/gdk-table.iml" filepath="$PROJECT_DIR$/libs/gdk-table/gdk-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/gdk-web/gdk-web.iml" filepath="$PROJECT_DIR$/libs/gdk-web/gdk-web.iml" />
+    </modules>
+  </component>
+</project>
