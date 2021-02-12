@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.gdk</groupId>
+    <artifactId>gdk</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+        <revision>0.0.0</revision>
+        <gauge-java.version>0.7.13</gauge-java.version>
+        <lombok.version>1.18.18</lombok.version>
+    </properties>
+
+    <modules>
+        <module>libs/gdk-core</module>
+        <module>libs/gdk-common</module>
+        <module>libs/gdk-sql</module>
+        <module>libs/gdk-graphql</module>
+        <module>libs/gdk-rest</module>
+        <module>libs/gdk-soap</module>
+        <module>libs/gdk-table</module>
+        <module>libs/gdk-sauron</module>
+        <module>libs/gdk-web</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.thoughtworks.gauge</groupId>
+            <artifactId>gauge-java</artifactId>
+            <version>${gauge-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,1 +1,1 @@
-# gauge-sdk
+# gauge-devkit
